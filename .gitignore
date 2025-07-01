@@ -1,0 +1,40 @@
+# Ignore node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Dependency directories
+.npm/
+
+# Optional lock files
+package-lock.json
+yarn.lock
+
+# Build and coverage outputs (if added later)
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.swp
+
+# EJS template cache (if used)
+*.ejs~
+
+# Ignore anything accidentally compiled to JS (in case of TS usage later)
+*.tsbuildinfo
